@@ -4,6 +4,7 @@
     }
 }
 
+
 .we-do__title {
     margin-bottom: 50px;
 
@@ -17,11 +18,10 @@
 
 .we-do__list {
     display: flex;
-    
 }
 
 .we-do__item {
-    flex-basis: calc(100% / 3 - 10px);
+    flex-basis: calc(100% / 3 - 30px);
 
     &:not(:last-child) {
         margin-right: 30px;

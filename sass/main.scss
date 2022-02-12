@@ -1,16 +1,24 @@
-// UTILS 
-@import "./utils/variables";
-@import "./base/common";
-@import "./base/reset";
-@import "./utils/hidden";
-// COMPONENTS
+/* ```````````````UTILS````````````` */
+
+@import './utils/variables';
+@import './base/common';
+@import './base/reset';
+@import './utils/hidden';
+
+
+/* ```````````````COMPONENTS```````````` */
+
 @import './components/container';
 @import './components/section';
 @import './components/logo';
 @import './components/btn';
 @import './components/btn-nav';
+@import './components/btn-nav';
+@import './components/btn-nav';
 
-// STUDIO
+
+/* ```````````````STUDIO````````````` */
+
 @import './layout/studio/header';
 @import './layout/studio/hero';
 @import './layout/studio/about';
@@ -18,12 +26,17 @@
 @import './layout/studio/team';
 @import './layout/studio/clients';
 
-@import './layout/studio/modal';
-// FOOTER
+
+
+/* ```````````````FOOTER````````````` */
+
 @import './layout/footer/footer';
 @import './layout/footer/social-footer';
 @import './components/sign-up';
-// PORTFOLIO
+
+
+/* ```````````````PORTFOLIO````````````` */
+
 @import './layout/portfolio/product-nav';
 @import './layout/portfolio/product-list';
 @import './layout/portfolio/product-thumb';

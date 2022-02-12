@@ -13,11 +13,13 @@ ul {
     padding: 0;
 }
 
-button {
-    cursor: pointer;
-}
-
 
 img {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
 }
